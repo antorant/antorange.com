@@ -21,6 +21,17 @@ body {
   background-color: #222222;
 }
 
+@media screen and (max-width: 800px) {
+  body {
+    display: block;
+  }
+
+  article, a {
+    height: 240px;
+    margin-bottom: 24px;
+  }
+}
+
 article, a {
   display: flex;
   justify-content: flex-start;
