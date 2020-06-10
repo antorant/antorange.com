@@ -43,7 +43,7 @@ article, a {
   background-size: cover;
   background-position: center;
 
-  background-color: #000000;
+
 }
 
 article:nth-child(2n+1),
@@ -75,4 +75,60 @@ img {
 article span, a span {
   padding: 8px;
   background-color: hsla(0, 0%, 0%, .5);
+}
+
+
+
+
+/* Signup form */
+a.subscribe-link {
+  align-items: center;
+  background-color: hsla(0, 0%, 0%, .5);
+  justify-content: center;
+  height: 200px;
+  text-align: center;
+}
+
+a.subscribe-link:hover {
+  background-color: hsla(0, 0%, 0%, .6);
+}
+
+.email-form {
+  padding: 0;
+  width: 100%;
+}
+
+.email-form * {
+  border: none;
+  border-radius: 0;
+  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+
+.email-form form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.email-form input[type="email"] {
+  background-color: hsla(0, 0%, 0%, .5);
+  color: #fff;
+  flex-grow: 1;
+  height: 6rem;
+  padding: 1rem 2rem;
+}
+
+.email-form input[type="email"]:focus {
+  background-color: hsla(0, 0%, 0%, .6);
+  outline: none;
+}
+
+.email-form input[type="submit"] {
+  border-color: #fff;
+  border-style: solid;
+  cursor: pointer;
+  height: 6rem;
+  padding: 1rem 2rem;
 }
