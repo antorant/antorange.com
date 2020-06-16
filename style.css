@@ -107,7 +107,8 @@ article span, a span {
 }
 
 .block--email-form input[type="submit"] {
-  border-color: #fff;
+  background-color: #ffffff;
+  border-color: #ffffff;
   border-style: solid;
   cursor: pointer;
   height: 6rem;
