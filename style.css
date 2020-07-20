@@ -29,12 +29,12 @@ body {
     display: block;
   }
 
-  article, a {
+  article {
     height: 240px;
   }
 }
 
-article, a {
+article {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,8 +62,11 @@ article span, a span {
 
 
 .block--ysid {
+  align-items: center;
   background-image: url(img/ysid__bg.jpg);
-  background-size: cover;
+  background-size: 105%;
+  display: flex;
+  justify-content: center;
   height: 100vh;
 }
 
