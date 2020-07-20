@@ -29,9 +29,9 @@ body {
     display: block;
   }
 
-  article {
-    height: 240px;
-  }
+  /* article {
+    min-height: 240px;
+  } */
 }
 
 article {
@@ -116,4 +116,16 @@ article span, a span {
   cursor: pointer;
   height: 6rem;
   padding: 1rem 2rem;
+}
+
+@media screen and (max-width: 800px) {
+  .block--email-form input[type="email"] {
+    height: 3rem;
+    padding: 1rem 1rem;
+  }
+
+  .block--email-form input[type="submit"] {
+    height: 3rem;
+    padding: 0 1rem;
+  }
 }
