@@ -63,7 +63,7 @@ article span, a span {
 
 .block--sketchbook {
   align-items: center;
-  background-image: url("img/sketchbook__bg.png");
+  background-image: url("img/sketchbook__bg.jpg");
   background-position: center;
   background-size: 105%;
   display: flex;
