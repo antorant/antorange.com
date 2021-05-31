@@ -61,17 +61,18 @@ article span, a span {
 
 
 
-.block--ysid {
+.block--sketchbook {
   align-items: center;
-  background-image: url(img/ysid__bg.jpg);
+  background-image: url("img/sketchbook__bg.png");
+  background-position: center;
   background-size: 105%;
   display: flex;
   justify-content: center;
   height: 100vh;
 }
 
-.block--ysid img {
-  max-width: 320px;
+.block--sketchbook img {
+  max-width: 480px;
 }
 
 
