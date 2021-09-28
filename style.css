@@ -59,11 +59,8 @@ article span, a span {
 }
 
 
-
-
-.block--sketchbook {
+.block--release {
   align-items: center;
-  background-image: url("img/sketchbook__bg.jpg");
   background-position: center;
   background-size: 105%;
   display: flex;
@@ -71,9 +68,15 @@ article span, a span {
   height: 100vh;
 }
 
-.block--sketchbook img {
+.block--release img {
   max-width: 480px;
 }
+
+.block--sketchbook {
+  background-image: url("img/sketchbook__bg.jpg");
+}
+
+
 
 
 
